@@ -1,31 +1,16 @@
-import readlineSync from 'readline-sync';
+import getRandomNumber from '../utils.js';
+import runGame from '../index.js';
 
 const isEven = (num) => num % 2 === 0;
 
+const generateRound = () => {
+  const question = getRandomNumber(1, 100);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return [question, correctAnswer];
+};
+
 const runEvenGame = () => {
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-  const roundsCount = 3;
-  for (let i = 0; i < roundsCount; i += 1) {
-    const question = Math.floor(Math.random() * 100);
-    console.log(`Question: ${question}`);
-    const answer = readlineSync.question('Your answer: ');
-
-    const correctAnswer = isEven(question) ? 'yes' : 'no';
-
-    if (answer !== correctAnswer) {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${name}!`);
-      return;
-    }
-
-    console.log('Correct!');
-  }
-
-  console.log(`Congratulations, ${name}!`);
+  runGame('Answer "yes" if the number is even, otherwise answer "no".', generateRound);
 };
 
 export default runEvenGame;
