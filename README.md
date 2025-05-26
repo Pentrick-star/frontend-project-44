@@ -3,3 +3,5 @@
 [![Actions Status](https://github.com/Pentrick-star/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pentrick-star/frontend-project-44/actions)
 Демонстрация игры brain-even: https://asciinema.org/a/abc12345
 Демонстрация игры brain-calc: https://asciinema.org/connect/7a6cb3a6-0a37-4e58-ac1e-309da788d934
+Демонстрация игры brain-gcd: https://asciinema.org/connect/7a6cb3a6-0a37-4e58-ac1e-309da788d934
+Демонстрация игры brain-progression: https://asciinema.org/connect/7a6cb3a6-0a37-4e58-ac1e-309da788d934
