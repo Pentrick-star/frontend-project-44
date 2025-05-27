@@ -1,7 +1,10 @@
+# Brain Games
+
 [![SonarCloud Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Pentrick-star_frontend-project-44)](https://sonarcloud.io/summary/new_code?id=Pentrick-star_frontend-project-44)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pentrick-star/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pentrick-star/frontend-project-44/actions)
+
 ## Демонстрация игр
 
 ### brain-even
@@ -18,4 +21,3 @@
 
 ### brain-progression
 [![asciicast](https://asciinema.org/a/WDLJXpZDH1pxx22E41hRk4eDy.svg)](https://asciinema.org/a/WDLJXpZDH1pxx22E41hRk4eDy)
-
