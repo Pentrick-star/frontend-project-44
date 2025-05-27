@@ -1,8 +1,20 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pentrick-star_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pentrick-star_frontend-project-44)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pentrick-star/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pentrick-star/frontend-project-44/actions)
-Демонстрация игры brain-even: https://asciinema.org/a/abc12345
-Демонстрация игры brain-calc: https://asciinema.org/a/7a6cb3a6-0a37-4e58-ac1e-309da788d934
-Демонстрация игры brain-gcd: https://asciinema.org/a/7a6cb3a6-0a37-4e58-ac1e-309da788d934
-Демонстрация игры brain-progression: https://asciinema.org/a/7a6cb3a6-0a37-4e58-ac1e-309da788d934
-Демонстрация игры brain-prime: https://asciinema.org/a/7a6cb3a6-0a37-4e58-ac1e-309da788d934
+## Демонстрация игр
+
+### brain-even
+[![asciicast](https://asciinema.org/a/KKetSK6wrNSDEuShLlfxezN0F.svg)](https://asciinema.org/a/KKetSK6wrNSDEuShLlfxezN0F)
+
+### brain-calc
+[![asciicast](https://asciinema.org/a/KIgeSilgSe9hkzPp8VR0pk3Lf.svg)](https://asciinema.org/a/KIgeSilgSe9hkzPp8VR0pk3Lf)
+
+### brain-gcd
+[![asciicast](https://asciinema.org/a/ZAO4nk9LrV2Qo8F4bIgcco0E7.svg)](https://asciinema.org/a/ZAO4nk9LrV2Qo8F4bIgcco0E7)
+
+### brain-prime
+[![asciicast](https://asciinema.org/a/hNCRnW7oMYGKRZkyH6Cn31b1q.svg)](https://asciinema.org/a/hNCRnW7oMYGKRZkyH6Cn31b1q)
+
+### brain-progression
+[![asciicast](https://asciinema.org/a/WDLJXpZDH1pxx22E41hRk4eDy.svg)](https://asciinema.org/a/WDLJXpZDH1pxx22E41hRk4eDy)
+
