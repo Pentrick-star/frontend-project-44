@@ -26,7 +26,7 @@ jobs:
         with:
           projectBaseDir: .
           args: >
-            -Dsonar.projectKey=Pentrick-star_frontend-project-44
-            -Dsonar.organization=pentrick-star
+           sonar.projectKey=Pentrick-star_frontend-project-44
+           sonar.organization=pentrick-star
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
