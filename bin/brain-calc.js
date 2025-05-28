@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runCalcGame from '../src/games/calc.js';
+// eslint-disable-next-line semi
+import runCalcGame from '../src/games/calc.js'
 
-runCalcGame();
+// eslint-disable-next-line semi
+runCalcGame()

@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runEvenGame from '../src/games/even.js';
+// eslint-disable-next-line semi
+import runEvenGame from '../src/games/even.js'
 
-runEvenGame();
+// eslint-disable-next-line semi
+runEvenGame()

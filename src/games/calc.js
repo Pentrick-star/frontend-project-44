@@ -1,5 +1,8 @@
-import getRandomNumber from '../utils.js';
-import runGame from '../index.js';
+/* eslint-disable semi */
+// eslint-disable-next-line semi
+import getRandomNumber from '../utils.js'
+// eslint-disable-next-line semi
+import runGame from '../index.js'
 
 const calculate = (a, b, operator) => {
   switch (operator) {
@@ -12,7 +15,7 @@ const calculate = (a, b, operator) => {
     default:
       throw new Error(`Unknown operator: ${operator}`);
   }
-};
+}
 
 const generateRound = () => {
   const a = getRandomNumber(1, 20);
@@ -23,11 +26,11 @@ const generateRound = () => {
   const question = `${a} ${operator} ${b}`;
   const correctAnswer = String(calculate(a, b, operator));
 
-  return [question, correctAnswer];
-};
+  return [question, correctAnswer]
+}
 
 const runCalcGame = () => {
   runGame('What is the result of the expression?', generateRound);
-};
+}
 
-export default runCalcGame;
+export default runCalcGame

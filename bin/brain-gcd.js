@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runGCDGame from '../src/games/gcd.js';
+// eslint-disable-next-line semi
+import runGCDGame from '../src/games/gcd.js'
 
-runGCDGame();
+// eslint-disable-next-line semi
+runGCDGame()

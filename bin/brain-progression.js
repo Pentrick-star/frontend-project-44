@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runProgressionGame from '../src/games/progression.js';
+// eslint-disable-next-line semi
+import runProgressionGame from '../src/games/progression.js'
 
-runProgressionGame();
+// eslint-disable-next-line semi
+runProgressionGame()

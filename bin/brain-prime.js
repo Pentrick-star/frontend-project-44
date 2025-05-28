@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import runPrimeGame from '../src/games/prime.js';
+// eslint-disable-next-line semi
+import runPrimeGame from '../src/games/prime.js'
 
-runPrimeGame();
+// eslint-disable-next-line semi
+runPrimeGame()
