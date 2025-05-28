@@ -7,4 +7,4 @@ module.exports = {
     'no-console': 'off',
     'import/extensions': 'off',
   },
-};
+}
