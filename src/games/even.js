@@ -1,7 +1,7 @@
 import getRandomNumber from '../utils.js'
 import runGame from '../index.js'
 
-const isEven = (num) => num % 2 === 0
+const isEven = num => num % 2 === 0
 
 const generateRound = () => {
   const question = getRandomNumber(1, 100)
