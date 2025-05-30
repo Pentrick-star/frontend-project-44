@@ -14,7 +14,6 @@ const generateRound = () => {
   const progressionWithHidden = progression
     .map((num, idx) => (idx === hiddenIndex ? '..' : num))
     .join(' ')
-  
   return [progressionWithHidden, correctAnswer]
 }
 
